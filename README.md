@@ -1,24 +1,119 @@
-# Modern Portfolio Website - Anish Gupta
+# iPortfolio - Anish Gupta
 
-A modern, responsive portfolio website showcasing professional experience, skills, and projects. Built with modern web technologies and featuring a sleek, professional design with glassmorphism effects and interactive elements.
+A modern, responsive portfolio website for Anish Gupta, built with HTML5, CSS3, JavaScript, and Bootstrap 5.3.3. This site showcases professional experience, technical skills, projects, and services, with a sleek glassmorphism-inspired design and interactive UI elements.
 
-![Portfolio Preview](assets/img/my-profile-img.jpg)
+![Portfolio Preview](./assets/img/WhatsApp%20Image%202025-06-12%20at%2020.46.27_0b4ba1bd.jpg)
 
-## 🌟 Features
+## 🚀 Features
 
-### Modern UI Components
-- Glassmorphism effects across various sections
-- Floating animations for enhanced visual appeal
-- Neon glow effects on interactive elements
-- Responsive design that works on all devices
-- Smooth scrolling and transitions
-- Dark theme optimized for better readability
+- Modern glassmorphism and neon-glow UI
+- Responsive, mobile-first layout
+- Smooth scrolling, transitions, and floating animations
+- Dynamic typing animation in the hero section
+- Filterable portfolio gallery with lightbox
+- Animated statistics and counters
+- Contact form with Netlify Forms integration (no backend required)
+- Google Maps integration
+- Social media links and direct contact info
 
-### Key Sections
-1. **Hero Section**
-   - Dynamic typing animation
-   - Full-screen background with modern overlay
-   - Prominent name display with bold typography
+## 📂 Main Sections
+
+1. **Hero** – Name, dynamic typing, bold intro, full-screen background
+2. **About** – Professional summary, personal info, contact details
+3. **Skills** – Card-based layout, tag-style skills, frontend/backend/frameworks/design
+4. **Resume** – Education, professional experience, hackathon/freelance history
+5. **Portfolio** – Filterable gallery, project cards, lightbox, project details
+6. **Services** – Service cards with icons and descriptions
+7. **Contact** – Netlify-powered form, Google Maps, social links
+
+## 🛠️ Technologies Used
+
+- HTML5, CSS3, JavaScript (ES6+)
+- Bootstrap 5.3.3
+- AOS (Animate On Scroll)
+- Typed.js (typing animation)
+- Isotope (portfolio filtering)
+- GLightbox (image lightbox)
+- Swiper (testimonials carousel)
+- Waypoints, PureCounter (scroll/number animations)
+- Bootstrap Icons
+- Google Fonts: Roboto, Poppins, Raleway
+
+## 📁 Project Structure
+
+```
+iPortfolio-1.0.0/
+├── index.html              # Main website file
+├── thank-you.html          # Netlify form redirect page
+├── service-details.html    # Service details (optional)
+├── starter-page.html       # Starter template (optional)
+├── assets/
+│   ├── css/
+│   │   └── main.css
+│   ├── js/
+│   │   └── main.js
+│   ├── img/                # Images, portfolio, testimonials
+│   ├── scss/               # SCSS source files
+│   └── vendor/             # Third-party libraries
+│       ├── aos/
+│       ├── bootstrap/
+│       ├── bootstrap-icons/
+│       ├── glightbox/
+│       ├── isotope-layout/
+│       ├── swiper/
+│       ├── typed.js/
+│       └── waypoints/
+└── forms/
+    └── contact.php         # (Legacy, not used with Netlify)
+```
+
+## ⚙️ Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone [repository-url]
+   cd iPortfolio-1.0.0
+   ```
+2. **Open in your browser**
+   - Open `index.html` directly, or
+   - Use a local server:
+     ```bash
+     # Python
+     python -m http.server 8000
+     # or Node.js
+     npx serve
+     ```
+3. **Deploy to Netlify**
+   - Connect your GitHub repo to Netlify
+   - Set the publish directory to `iPortfolio-1.0.0` (or project root)
+   - Netlify will auto-detect the contact form and handle submissions
+
+## 📝 Customization
+
+- Update `index.html` with your info, skills, and projects
+- Replace images in `assets/img/`
+- Edit `main.css` for color/theme tweaks
+- Add or update portfolio/service items as needed
+
+## 💡 Netlify Contact Form Setup
+
+- The contact form uses Netlify Forms (no backend required)
+- After submission, users are redirected to `thank-you.html`
+- Make sure `thank-you.html` is present in the project root and deployed
+- Form submissions appear in your Netlify dashboard
+
+## 📄 License
+
+MIT License. See LICENSE for details.
+
+---
+
+**Anish Gupta**  
+Email: anishgupta4099@gmail.com  
+LinkedIn: [Anish Gupta](https://www.linkedin.com/in/anish-gupta-696245324)  
+GitHub: [anishgupta6801](https://github.com/anishgupta6801)
+
+*Last updated: July 3, 2025*
 
 2. **About**
    - Professional summary
