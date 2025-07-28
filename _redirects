@@ -1,6 +1,3 @@
 # Netlify redirects file
-# Handle form submissions
-/thank-you.html /thank-you.html 200
-
-# Handle any 404s by redirecting to home page
+# Handle any 404s by redirecting to home page (except for existing files)
 /* /index.html 404
