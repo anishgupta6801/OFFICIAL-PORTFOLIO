@@ -43,6 +43,15 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <!-- Hidden form for Netlify Forms detection -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <input type="text" name="subject" />
+    <textarea name="message"></textarea>
+  </form>
+
 </head>
 
 <body class="index-page">
@@ -605,8 +614,11 @@
           </div>
 
           <div class="col-lg-7">
-            <form name="contact" method="POST" action="/thank-you.html" netlify data-aos="fade-up" data-aos-delay="200">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-redirect="/thank-you.html" data-netlify-honeypot="bot-field" data-aos="fade-up" data-aos-delay="200">
               <input type="hidden" name="form-name" value="contact">
+              <p style="display: none;">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+              </p>
               <div class="row gy-4">
                 <div class="col-md-6">
                   <label for="name-field" class="pb-2">YOUR NAME</label>
